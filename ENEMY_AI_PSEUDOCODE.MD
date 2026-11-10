@@ -1,8 +1,11 @@
 # c0m000.dat-c0m199.dat monster AI as pseudocode (section 8)
 
 **Variable names.** Each monster's local variables (raw `varA`..`varI`, ids 220-228 in `ENEMY_AI_SCRIPTS.md`) are renamed, with a key under each heading. 
+
 *named* = picked by reading that monster's script). It's not something the code proves, just an interpretation.  
+
 *auto* = a generic name from the usage pattern (`defeated`, `turn_counter`, `hit_counter`, `once_turn`, `phase`, ...; rules in `auto_var_names`). 
+
 Unknown variables are in the format `varX`.
 
 
